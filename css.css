@@ -1,0 +1,120 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+   
+}
+
+.navbar{
+    background-color: lightblue;
+    width: 100%;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.container{
+    padding: 10px;
+}
+
+.book-container{
+    background-color: black;
+    color: white;
+    width: 30%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.book-container > h2{
+    color: red;
+}
+
+.button{
+    color: white;
+    background-color:red;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add-button{
+    background-color: yellow;
+    font-size: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+}
+
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.popup-box{
+    background-color:red;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left:30%;
+    z-index:2;
+    display: none;
+}
+
+.popup-box input{
+    background: transparent;
+    border: none;
+    width:100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+
+.popup-box textarea{
+    background: transparent;
+    width:100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+
+.popup-box input::placeholder{
+    color: black;
+}
+
+.popup-box textarea::placeholder{
+    color: black;
+}
+
+.popup-box button{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    gap: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+}
